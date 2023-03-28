@@ -12,7 +12,7 @@ const ProfileForm = () => {
     const enteredNewPassword = newPasswordInputRef.current.value;
 
     fetch(
-      "https://identitytoolkit.googleapis.com/v1/accounts:update?key=AIzaSyAKze10CYo3SChUER8Fmtpqqftf5lowTuo",
+      "https://identitytoolkit.googleapis.com/v1/accounts:update?key=put ur firebase's project key here",
       {
         method: "POST",
         body: JSON.stringify({
